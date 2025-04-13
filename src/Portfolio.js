@@ -117,7 +117,7 @@ export default function Portfolio() {
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
             <a
-              href="https://www.linkedin.com/in/soham-nandanwar-93010a284/"
+              href="https://www.linkedin.com/in/soham-nandanwar/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-110"
