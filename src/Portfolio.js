@@ -90,7 +90,7 @@ export default function Portfolio() {
           </p>
           <div className="flex justify-center gap-6 mt-2">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/jhandu.bam.71619"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-blue-500 hover:text-blue-700 transition-transform transform hover:scale-110"
@@ -99,7 +99,7 @@ export default function Portfolio() {
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/_soham.257/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-pink-500 hover:text-pink-700 transition-transform transform hover:scale-110"
@@ -108,7 +108,7 @@ export default function Portfolio() {
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/sohamn343"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-blue-400 hover:text-blue-600 transition-transform transform hover:scale-110"
@@ -117,7 +117,7 @@ export default function Portfolio() {
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/soham-nandanwar-93010a284/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-110"
@@ -128,7 +128,7 @@ export default function Portfolio() {
           </div>
           <p className="text-md mt-4">You can download my resume from here:</p>
           <a
-            href="/Soham_Nandanwar-Resume.pdf"
+            href="/Soham_Nandanwar - Resume.pdf"
             className={`inline-block px-4 py-2 mt-2 rounded-full transform transition-transform duration-300 hover:scale-105 ${
               darkMode
                 ? 'bg-blue-600 text-white hover:bg-blue-700'
@@ -146,7 +146,7 @@ export default function Portfolio() {
           data-aos-duration="1200"
         >
           <img
-            src="/images/Soham.jpeg"
+            src="/Portfolio/images/Soham.jpeg"
             alt="Soham Nandanwar"
             className="w-80 h-80 md:w-96 md:h-96 rounded-full mx-auto animate-bounce-slow transform transition-transform duration-500 hover:scale-110 hover:rotate-3 hover:shadow-2xl"
           />
@@ -166,7 +166,7 @@ export default function Portfolio() {
         {/* Image Section */}
         <div className="md:w-1/3 flex justify-center">
           <img
-            src="/images/Soham.jpeg" // Replace with the actual path to your image
+            src="/Portfolio/images/Soham.jpeg" // Replace with the actual path to your image
             alt="About Me"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
           />
@@ -180,7 +180,9 @@ export default function Portfolio() {
           </p>
           {/* Read More Button */}
           <a
-            href="/Certificates.pdf" // Replace with the actual path to your detailed about page
+            href={`${process.env.PUBLIC_URL}/Certificates.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-4 py-2 mt-4 rounded-full hover:bg-blue-700 transform transition-transform duration-300 hover:scale-105"
           >
             Read More
